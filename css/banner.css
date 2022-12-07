@@ -1,0 +1,28 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner__descripcion{
+
+    flex-direction: column;
+    width: 65%;
+    padding: 1rem 0;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.banner__descripcion h1{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 61px;
+    text-align: justify;
+}
+.banner__descripcion__list{
+    padding-left: 0;
+    padding-right: 1rem;
+}
+.banner__descripcion__img{
+    width: 366px;
+    border-radius: 100%;
+    height: 366px;
+}

@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/sobre-mi.css">
     <link rel="stylesheet" href="css/skills__hobbies.css">
     <link rel="stylesheet" href="css/Formacion.css">
+    <link rel="stylesheet" href="css/Experiencia.css">
     
                             <!--Iconos-->
     <script src="https://kit.fontawesome.com/29bbc9f2d3.js" crossorigin="anonymous"></script>
@@ -57,7 +58,9 @@
                     <a href="https://www.instagram.com/david_ostos/" class="banner__descripcion__list list"><li>Instagram <i class="fa-brands fa-square-instagram"></i></li></a>
                 </ul>
             </div>
-            <img class="banner__descripcion__img" src="https://i.imgur.com/18Fy4NI.jpg" alt="Imagen de David">
+            <div class="banner__fondo__img">
+                <img class="banner__descripcion__img" src="https://i.imgur.com/18Fy4NI.jpg" alt="Imagen de David">
+            </div>
         </section>
 
         <!----------Sobre mi---------------->
@@ -133,16 +136,41 @@
                 <h1 style="text-align: center;">Formación académica</h1>
                 <div class="formacion__escuelas">
                     <div class="formacion__escuela">
-                        <img src="https://i.imgur.com/ODo0tud.png" alt="logo alura" class="formacion__escuela__img">
+                        <a class="link" href="https://www.aluracursos.com/"><img src="https://i.imgur.com/ODo0tud.png" alt="logo alura" class="formacion__escuela__img"></a>
                         <h1>ONE- Oracle Next Education</h1>
                         <p>2022</p>
                     </div>
                     <div class="formacion__escuela">
-                        <img src="https://i.imgur.com/Ym5Hx1B.png" alt="platzi" class="formacion__escuela__img">
+                        <a class="link" href="https://platzi.com/"><img src="https://i.imgur.com/Ym5Hx1B.png" alt="platzi" class="formacion__escuela__img"></a>
                         <h1>Programacion - diversa</h1>
                         <p>2022</p>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="experiencia">
+            <div class="experiencia__container container">
+                <img src="https://i.imgur.com/XihEY1s.png" alt="Encriptador" class="experiencia__container__img">
+                <div class="experiencia__contenido">
+                    <h2>Encriptador de texto</h2>
+                    <p>Challenge Alura Codificador</p>
+                    <div>
+                        <a href="https://github.com/David-Ostos/Encriptador"></a><button class="btn btn-repo">Repositorio</button>
+                        <a href="https://david-ostos.github.io/Encriptador/"></a><button class=" btn btn-demo">Demo</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experiencia__container container">
+                <div class="experiencia__contenido">
+                    <h2>Juego creado con HTML y JavaScript</h2>
+                    <p>Challenge Oracle</p>
+                    <div class="btn__container">
+                        <a href="https://github.com/David-Ostos/Juego_del_ahorcado"><button class="btn btn-repo">Repositorio</button></a>
+                        <a href="https://david-ostos.github.io/Juego_del_ahorcado/"><button class="btn btn-demo">Demo</button></a>
+                    </div>
+                </div>
+                <img src="https://i.imgur.com/E6m4Nqy.png" alt="Juego_del_ahorcado" class="experiencia__container__img">
             </div>
         </section>
     </main>

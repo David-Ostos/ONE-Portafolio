@@ -1,7 +1,19 @@
 body{
     padding: 0 5rem ;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #464646;
+    padding-bottom: 10rem;
+}
+b{
+    font-weight: bold;
+    color: #464646;
+}
+i{
+ font-size: 1.4rem;
+}
+.h1{
+    text-align: center;
+
 }
 .container{
     display: flex;

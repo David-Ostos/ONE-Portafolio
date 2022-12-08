@@ -1,0 +1,16 @@
+.contactame__container{
+    gap: 2rem;
+    line-height: 1.3rem;
+}
+.contactame__container h1{
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.input-container{
+    flex-direction: column;
+}
+.input{
+    border-radius: 5px;
+    border: 1px solid #46464963;
+}

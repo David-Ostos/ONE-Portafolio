@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/Experiencia.css">
     <link rel="stylesheet" href="css/diplomas_cursos.css">
     <link rel="stylesheet" href="css/contactame.css">
+    <link rel="stylesheet" href="css/footer.css">
     
 
                             <!--Iconos-->
@@ -43,6 +44,7 @@
                 <a href="#hobbies" class="head__list list"><li>Hobbies</li></a>
                 <a href="#proyectos" class="head__list list"><li>Proyectos</li></a>
                 <a href="#formacion" class="head__list list"><li>Formaciòn</li></a>
+                <a href="#contactame" class="head__list list"><li>Contactame</li></a>
                 <a href="mailto:davidostos2@gmail.com" target="_blank" class="head__list"><li><b>davidostos2@gmail.com</b></li></a>
             </ul>
         </div>
@@ -144,8 +146,8 @@
                     <h2>Encriptador de texto</h2>
                     <p>Challenge Alura Codificador</p>
                     <div>
-                        <a href="https://github.com/David-Ostos/Encriptador" target="_blank"></a><button class="btn btn-repo">Repositorio</button>
-                        <a href="https://david-ostos.github.io/Encriptador/" target="_blank"></a><button class=" btn btn-demo">Demo</button>
+                        <a href="https://github.com/David-Ostos/Encriptador" target="_blank"><button class="btn btn-repo">Repositorio</button></a>
+                        <a href="https://david-ostos.github.io/Encriptador/" target="_blank"><button class=" btn btn-demo">Demo</button></a>
                     </div>
                 </div>
             </div>
@@ -160,8 +162,18 @@
                         <a href="https://david-ostos.github.io/Juego_del_ahorcado/" target="_blank"><button class="btn btn-demo">Demo</button></a>
                     </div>
                 </div>
-                
             </div>
+
+            <div class="experiencia__container container">
+                <img src="https://i.imgur.com/BZK6RHv.png" alt="PetShop" class="experiencia__container__img">
+                <div class="experiencia__contenido">
+                    <h2>Formulario para registro - PetShop</h2>
+                    <p>Clases de Oracle</p>
+                    <div class="btn__container">
+                        <a href="https://github.com/David-Ostos/ONE-js-web-2" target="_blank"><button class="btn btn-repo">Repositorio</button></a>
+                        <a href="https://one-js-web-2.vercel.app/" target="_blank"><button class="btn btn-demo">Demo</button></a>
+                    </div>
+                </div>
         </section>
 
                                     <!------------Formacion------------>
@@ -334,28 +346,51 @@
         </section>
 
 
-        <section class="contactame">
+        <section class="contactame" id="contactame">
             <div class="contactame__container container">
                 <figure>
-                    <a href="https://i.imgur.com/ARf5foK.png"><img src="https://i.imgur.com/ARf5foK.png" width="366px" alt="email digital"></a>
+                    <a href="https://i.imgur.com/uziDzVM.png"><img src="https://i.imgur.com/uziDzVM.png" width="500" alt="email digital"></a>
                 </figure>
                 <div class="contactame__contenido">
-                    <h1>Contacto</h1>
-                <p>¿Quieres contactarme? <br>
-                    ¿Quieres contactarme?
-                    Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.
-                </p>
-                <div class="input-container container">
-                    <label class="input-label" for="name">Nombre</label>
-                    <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre">
-                </div>
-                </div>
-                
+                    <h1 class="contactame__contenido__title">Contacto</h1>
+                    <p>¿Quieres contactarme? <br>
+                        Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.
+                    </p>
+                    <div class="input-container">
+                        <label class="input-label" for="name">Nombre:</label>
+                        <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre">
+                    </div>
+
+                    <div class="input-container">
+                        <label class="input-label" for="email">Email</label>
+                        <input name="email" id="email" class="input" type="email" placeholder="Email" required data-tipo="email">
+                    </div>
+
+                    <div class="input-container">
+                        <label class="input-label" for="name">Asunto:</label>
+                        <input name="asunto" id="name" class="input" type="text" placeholder="Asunto" required data-tipo="asunto">
+                    </div>
+
+                    <div class="input-container">
+                        <label class="input-label" for="name">mensaje:</label>
+                        <textarea name="mensaje" id="name" class="input-mensaje" type="text" placeholder="Mensaje" required data-tipo="mensaje"></textarea>
+                    </div>
+
+                    <div class="btn__enviar">
+                        <button class="btn btn-enviar btn-demo">Enviar mensaje</button>
+                    </div>
+                </div> 
             </div>
         </section>
-
-    <footer>
-
+    <footer class="footer">
+        <div class="footer__1">
+        <b><i class="fa-regular fa-copyright"></i></b>
+        <p>Desarrollado por <b>David Ostos</b></p>
+    </div>
+    <div class="footer__2">
+        <p>2022</p>
+    </div>
+    
     </footer>
                                 <!--Archivos JavaScript-->
     <script src="js/script.js"></script>

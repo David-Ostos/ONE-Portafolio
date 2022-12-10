@@ -1,1 +1,1 @@
-const zoom = document.querySelector(".")
+const input = document.querySelectorAll("input");

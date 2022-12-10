@@ -14,12 +14,11 @@
     justify-content: center;
 }
 .curso__grupo{
-    justify-content: center
+    justify-content: space-between;
 }
 .curso{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 30%;
     align-items: center;
     gap: 2rem;
@@ -31,6 +30,7 @@
 }
 .curso__img{
     border-radius: 10px;
+    width: 300px;
 }
 .curso__img:hover{
     box-shadow: 0px 0px 100px -7px rgb(141, 200, 85);
@@ -40,8 +40,8 @@
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
-    height: 80px;
     line-height: 1.2;
+    padding: 0 2rem;
 }
 .curso__title b{
     color: rgb(141, 200, 85);

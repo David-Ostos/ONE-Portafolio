@@ -1,3 +1,6 @@
+.head__nav__tablet{
+    display: none;
+}
 .head .container{
     display: flex;
     justify-content: space-between;

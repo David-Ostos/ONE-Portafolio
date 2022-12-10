@@ -6,6 +6,9 @@
     line-height: 1.3;
     align-items: center;
 }
+.contactame__img{
+  border-radius: 10px;
+}
 .input-container{
     margin: 2rem 0;
 }

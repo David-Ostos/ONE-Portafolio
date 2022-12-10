@@ -1,8 +1,20 @@
 .diplomas_curos{
     padding: 7rem 0;
 }
+.diplomas__titulo{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.text__platzi{
+    color: rgb(141, 200, 85);
+}
 .curso__container{
     justify-content: center;
+}
+.curso__grupo{
+    justify-content: center
 }
 .curso{
     display: flex;
@@ -12,14 +24,24 @@
     align-items: center;
     gap: 2rem;
     margin-top: 4rem;
+    transition: all 500ms;
+}
+.curso:hover{
+    transform: scale(1.2);
 }
 .curso__img{
-    box-shadow: -10px -10px 10px -4px #00000086;
+    border-radius: 10px;
 }
+.curso__img:hover{
+    box-shadow: 0px 0px 100px -7px rgb(141, 200, 85);
+}
+
 .curso__title{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
+    height: 80px;
+    line-height: 1.2;
 }
 .curso__title b{
     color: rgb(141, 200, 85);
@@ -41,4 +63,8 @@
 }
 .columna__3-2 img{
     box-shadow: 9px 9px 19px -7px rgba(0,0,0,0.75);
+}
+
+.alura__title{
+    padding-top: 7rem;
 }

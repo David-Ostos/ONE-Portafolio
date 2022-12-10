@@ -1,9 +1,6 @@
 .skills__hobbies{
     padding-top: 7rem;
 }
-.skills{
-    padding-bottom: 7rem;
-}
 .skills h1{
     font-size: 2rem;
     text-align: center;
@@ -18,6 +15,9 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+}
+.hobbies{
+    padding: 7rem 0;
 }
 .hobbies h1{
         font-size: 2rem;

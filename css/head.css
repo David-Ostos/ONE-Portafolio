@@ -26,3 +26,6 @@
     transform: scale(1.1);
     color: rgb(141, 200, 85);
 }
+.head__list b:hover{
+    color: rgb(141, 200, 85);
+}

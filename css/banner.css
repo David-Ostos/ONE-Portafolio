@@ -7,8 +7,8 @@
     flex-direction: column;
     width: 55%;
     padding: 1rem 0;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: end;
+    gap: 4rem;
 }
 .banner__descripcion b{
     color: rgb(141, 200, 85);

@@ -48,7 +48,6 @@
 
     /*------sobre mi-------*/
     .sobre-mi{
-        padding: 3rem 0;
     }
     .sobre-mi__descripcion {
         width: 100%;
@@ -140,6 +139,9 @@
     .sobre-mi__propiedades{
         margin: 1rem 0;
         padding: 0 1rem;
+    }
+    .sobre-mi__descripcion{
+        padding: 3rem 0;
     }
     .sobre-mi__descripcion p{
     line-height: 1;

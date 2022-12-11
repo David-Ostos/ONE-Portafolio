@@ -63,8 +63,3 @@
 .btn-demo:hover{
     transform: scale(1.1);
 }
-.btn{
-  padding: 1.5rem;
-  border-radius: 10px;  
- margin-right: 1rem;
-}

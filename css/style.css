@@ -35,3 +35,12 @@ i{
     display: flex;
     flex-wrap: wrap;
 }
+.btn{
+    padding: 1.5rem;
+    border-radius: 10px;  
+    margin-right: 1rem;
+    transition: all 500ms;
+  }
+  .btn:hover{
+    transform: scale(1.2);
+  }

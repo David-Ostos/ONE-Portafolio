@@ -102,11 +102,10 @@
     }
 }
 @media screen and (max-width: 767px){
-    /*-------body------*/
-    body{
+    /*-------head------*/
+    .head__propiedades{
         padding: 0 1rem;
     }
-    /*-------head------*/
     .head__yo{
         display: flex;
         align-items: center;
@@ -124,9 +123,10 @@
         font-size: .8rem;
     }
     /*------banner-------*/
-    .banner{
+    .banner__propiedades{
         flex-direction: column-reverse;
         gap: 1rem;
+        padding: 0 1rem;
     }
     .banner__fondo__img{
         width: 98px;
@@ -137,12 +137,18 @@
         height: 98px;
     }
     /*------sobre-mi-------*/
+    .sobre-mi__propiedades{
+        padding: 0 1rem;
+    }
     .sobre-mi__descripcion p{
     line-height: 1;
     text-align: justify;
     font-size: 0.8rem;
     }
     /*------hobbies-skills-------*/
+    .skills-hobies__propiedades{
+        padding: 0 1rem;
+    }
     .skills h1{
         padding-bottom: 3rem;
     }
@@ -166,8 +172,8 @@
         font-size: 2rem;
     }
     /*------experiencia-------*/
-    .experiencia{
-        padding: 0;
+    .experiencia__porpiedades{
+        padding: 0 1rem;
     }
     .experiencia__title{
         margin-bottom: 2rem;
@@ -193,12 +199,18 @@
         margin-right: 0;
     }
     /*------formacion-------*/
+    .formacion__propiedades{
+        padding: 0 1rem;
+    }
     .formacion__escuelas{
         padding-top: 2rem;
         flex-direction: column;
         align-items: center;
     }
     /*------cursos-------*/
+    .cursos__propiedades{
+        padding: 0 1rem;
+    }
     .curso__grupo{
         flex-direction: column;
         align-items: center;
@@ -223,12 +235,14 @@
         width: 100%;
     }
     /*------contactame-------*/
+    .contactame__propiedades{
+        padding: 0 1rem;
+    }
     .contactame {
         padding: 0 0 2rem;
     }
     /*------footer-------*/
     .footer{
-        margin: 0;
         padding: 2rem 0;
         border-top: 1px solid #464646;
     }

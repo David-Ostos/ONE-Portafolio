@@ -1,3 +1,6 @@
+.skills-hobbies__propiedades{
+    padding: 0 5rem;
+}
 .skills__hobbies{
     padding-top: 7rem;
 }
@@ -8,7 +11,7 @@
     font-weight: bold;
 }
 .skills__nav{
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .skills__list{
     display: flex;
@@ -33,7 +36,7 @@
     text-align: center;
 }
 .hobbies__nav{
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 .skills__list i {

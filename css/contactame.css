@@ -1,6 +1,7 @@
-.contactame{
-    padding-top: 7rem;
+.contactame__propiedades{
+  padding: 7rem 5rem;
 }
+
 .contactame__container{
     gap: 5rem;
     line-height: 1.3;

@@ -1,6 +1,7 @@
-.banner{
+.banner__propiedades{
     display: flex;
     justify-content: space-between;
+    padding: 0 5rem;
 }
 .banner__descripcion{
 

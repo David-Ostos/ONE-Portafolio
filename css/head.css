@@ -1,3 +1,6 @@
+.head__propiedades{
+    padding: 0 5rem;
+}
 .head__nav__tablet{
     display: none;
 }

@@ -1,6 +1,8 @@
+.formacion__propiedades{
+    padding: 0 5rem 7rem 5rem;
+}
 .formacion__container{
     flex-direction: column;
-    padding-top: 7rem;
 }
 .formacion__container h1{
     font-size: 2rem;

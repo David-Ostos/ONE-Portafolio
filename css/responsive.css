@@ -109,7 +109,7 @@
     /*-------head------*/
     .head__yo{
         display: flex;
-        align-items: center;
+        align-items: flex-end;
     }
     .head__nav__tablet{
         display: flex;

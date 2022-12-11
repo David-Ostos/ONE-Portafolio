@@ -128,4 +128,84 @@
         width: 98px;
         height: 98px;
     }
-}   /*-------------*/
+    /*------sobre-mi-------*/
+    .sobre-mi__descripcion p{
+    line-height: 1;
+    text-align: justify;
+    font-size: 0.8rem;
+    }
+    /*------hobbies-skills-------*/
+    .skills h1{
+        padding-bottom: 3rem;
+    }
+    .skills__list {
+        padding-bottom: 2rem;
+    }
+    .skills__list i {
+        font-size: 2.5rem;
+    }
+    .hobbies{
+        padding-bottom: 0;
+    }
+    .hobbies h1{
+        padding-bottom: 2rem;
+    }
+    .hobbies__list{
+        width: 50%;
+        padding-bottom: 2rem;
+    }
+    .hobbies__list i{
+        font-size: 2rem;
+    }
+    /*------experiencia-------*/
+    .experiencia{
+        padding: 0;
+    }
+    .experiencia__title{
+        margin-bottom: 2rem;
+    }
+    .experiencia__container , .invert{
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 3rem;
+    }
+    .experiencia__container__img, .invert .experiencia__container__img {
+        width: 75vw;
+        box-shadow: 8px 8px 37px 1px #464646;
+    }
+    .experiencia__contenido{
+        align-items: center;
+    }
+    .btn__container{
+    display: flex;
+    gap: 1rem;
+    }
+    .btn{
+        padding: 1rem;
+        margin-right: 0;
+    }
+    /*------formacion-------*/
+    .formacion__escuelas{
+        padding-top: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*-------------*/
+    .curso__grupo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .formacion__escuela{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .escuela__platzi img{
+        width: 83vh;
+        height: auto;
+    }
+    .diplomas_curos {
+        padding: 3rem 0;
+    }
+}
+   /*-------------*/

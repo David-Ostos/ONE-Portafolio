@@ -109,16 +109,24 @@
     /*-------head------*/
     .head__yo{
         display: flex;
-        align-items: flex-end;
+        align-items: center;
+        font-size:.8rem;
+        gap: 0.1rem;
     }
     .head__nav__tablet{
         display: flex;
         align-items: center;
     }
+    .fa-brands, .fab {
+        font-size: .8rem;
+    }
+    .head .container b {
+        font-size: .8rem;
+    }
     /*------banner-------*/
     .banner{
         flex-direction: column-reverse;
-        align-items: center;
+        gap: 1rem;
     }
     .banner__fondo__img{
         width: 98px;
@@ -190,7 +198,7 @@
         flex-direction: column;
         align-items: center;
     }
-    /*-------------*/
+    /*------cursos-------*/
     .curso__grupo{
         flex-direction: column;
         align-items: center;
@@ -206,6 +214,13 @@
     }
     .diplomas_curos {
         padding: 3rem 0;
+    }
+    .curso__title{
+        font-size: .8rem;
+        padding: 0;
+    }
+    .curso{
+        width: 100%;
     }
 }
    /*-------------*/

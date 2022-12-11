@@ -138,6 +138,7 @@
     }
     /*------sobre-mi-------*/
     .sobre-mi__propiedades{
+        margin: 1rem 0;
         padding: 0 1rem;
     }
     .sobre-mi__descripcion p{

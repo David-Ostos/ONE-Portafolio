@@ -202,7 +202,7 @@
     }
     .escuela__platzi img{
         width: 83vh;
-        height: auto;
+        height: unset;
     }
     .diplomas_curos {
         padding: 3rem 0;

@@ -1,9 +1,15 @@
-.sobre-mi__propiedades{
-    padding: 0 5rem;
+.sobre-mi__fondo{
+    background: radial-gradient(circle, rgba(224,224,224,0.08167016806722693) 0%, rgba(0,0,0,1) 139%);
 }
 .sobre-mi{
-    padding: 7rem 0;
-
+    background: url(https://i.imgur.com/5X4oZ9m.jpg) center / cover no-repeat;
+}
+.sobre-mi__propiedades{
+    margin: 4rem;
+    padding: 7rem 5rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
 }
 .sobre-mi__descripcion{
     display: flex;
@@ -13,6 +19,9 @@
 }
 .sobre-mi__descripcion h1{
     font-size: 1.4rem;
+}
+.sobre-mi__descripcion b{
+    color: rgb(141, 200, 85);
 }
 .sobre-mi__descripcion__nav{
     width: 50%;
@@ -25,3 +34,4 @@
 .sobre-mi__descripcion p{
     line-height:  18.78px;
 }
+

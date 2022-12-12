@@ -1,0 +1,12 @@
+{
+    "name": "cuentasbancopopular",
+    "version": "1.0.0",
+    "description": "validacion de formulario",
+    "main": "script.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Portafolio - David Ostos",
+    "license": "ISC",
+    "type": "module"
+  }

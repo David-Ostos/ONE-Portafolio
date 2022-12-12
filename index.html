@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="css/contactame.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/mensaje-error.css/mensaje-error.css">
 
                             <!--Iconos-->
     <script src="https://kit.fontawesome.com/29bbc9f2d3.js" crossorigin="anonymous"></script>
@@ -377,38 +378,47 @@
         <section class="contactame" id="contactame">
             <div class="contactame__propiedades">
                 <div class="contactame__container container">
-                <figure>
-                    <a href="https://i.imgur.com/uziDzVM.png"><img class="contactame__img" src="https://i.imgur.com/uziDzVM.png" width="500" alt="email digital"></a>
-                </figure>
-                <div class="contactame__contenido">
-                    <h1 class="contactame__contenido__title">Contacto</h1>
-                    <p>¿Quieres contactarme? <br>
-                        Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.
-                    </p>
-                    <div class="input-container">
-                        <label class="input-label" for="name">Nombre:</label>
-                        <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre">
-                    </div>
+                    <figure>
+                        <a href="https://i.imgur.com/uziDzVM.png"><img class="contactame__img" src="https://i.imgur.com/uziDzVM.png" width="500" alt="email digital"></a>
+                    </figure>
+                    <div class="contactame__contenido">
+                        <h1 class="contactame__contenido__title">Contacto</h1>
+                        <p>
+                            ¿Quieres contactarme? <br>
+                            Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.
+                        </p>
+                            <form>
+                                <fieldset>
+                                    <div class="input-container">
+                                        <label class="input-label" for="name">Nombre:</label>
+                                        <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre">
+                                        <span class="input-message-error">mensaje de error</span>
+                                    </div>
 
-                    <div class="input-container">
-                        <label class="input-label" for="email">Email</label>
-                        <input name="email" id="email" class="input" type="email" placeholder="Email" required data-tipo="email">
-                    </div>
+                                    <div class="input-container">
+                                            <label class="input-label" for="email">Email</label>
+                                            <input name="email" id="email" class="input" type="email" placeholder="Email" required data-tipo="email">
+                                            <span class="input-message-error">mensaje de error</span>
+                                        </div>
 
-                    <div class="input-container">
-                        <label class="input-label" for="name">Asunto:</label>
-                        <input name="asunto" id="name" class="input" type="text" placeholder="Asunto" required data-tipo="asunto">
-                    </div>
+                                        <div class="input-container">
+                                            <label class="input-label" for="name">Asunto:</label>
+                                            <input name="asunto" id="name" class="input" type="text" placeholder="Asunto" required data-tipo="asunto">
+                                            <span class="input-message-error">mensaje de error</span>
+                                        </div>
 
-                    <div class="input-container">
-                        <label class="input-label" for="name">mensaje:</label>
-                        <textarea name="mensaje" id="name" class="input-mensaje" type="text" placeholder="Mensaje" required data-tipo="mensaje"></textarea>
-                    </div>
+                                        <div class="input-container">
+                                            <label class="input-label" for="name">mensaje:</label>
+                                            <textarea name="mensaje" id="name" class="input-mensaje" type="text" placeholder="Mensaje" required data-tipo="mensaje"></textarea>
+                                            <span class="input-message-error">mensaje de error</span>
+                                        </div>
 
-                    <div class="btn__enviar">
-                        <button class="btn btn-enviar btn-demo">Enviar mensaje</button>
-                    </div>
-                </div> 
+                                        <div class="btn__enviar">
+                                            <button class="btn btn-enviar btn-demo">Enviar mensaje</button>
+                                        </div>
+                                    </div> 
+                                </fieldset>
+                            </form>
                 </div>
             </div>
         </section>
@@ -425,6 +435,6 @@
         </div>
     </footer>
                                 <!--Archivos JavaScript-->
-    <script src="js/script.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 </html>

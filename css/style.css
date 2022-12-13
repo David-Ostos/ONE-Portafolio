@@ -1,7 +1,28 @@
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+body{
+    scrollbar-width: auto;
+    scrollbar-color: #57c41c transparent;
+}
+
+  /* Chrome, Edge, and Safari */
+  body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #57c41c;
+    border-radius: 10px;
+    border: 0px solid #ffffff;
+}
+
 body{
     font-family: 'Raleway', sans-serif;
     color: #464646;
-    caret-color: transparent;
 }
 b{
     font-weight: bold;
@@ -9,6 +30,20 @@ b{
 }
 i{
  font-size: 1.4rem;
+}
+input {
+	border: none;
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-family: inherit;
+}
+textarea {
+	border: none;
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-family: inherit;
 }
 .h1{
     text-align: center;

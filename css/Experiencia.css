@@ -1,8 +1,6 @@
 .experiencia__propiedades{
     padding: 7rem 5rem ;
 }
-
-
 .experiencia__title{
     font-size: 2rem;
     font-weight: bold;
@@ -14,6 +12,10 @@
     align-items: center;
     padding-bottom: 7rem;
     gap: 4rem;
+}
+.experiencia__parrafo {
+    line-height: 1.3;
+    text-align: justify;
 }
 .experiencia__container__img{
     width: 50%;

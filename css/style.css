@@ -52,6 +52,10 @@ textarea {
 .container{
     display: flex;
 }
+.container__column{
+    display: flex;
+    flex-direction: column;
+}
 .nav{
     display: flex;
 }

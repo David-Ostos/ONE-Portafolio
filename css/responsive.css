@@ -210,6 +210,28 @@
         flex-direction: column;
         align-items: center;
     }
+
+    /*------formacion modulos-------*/
+
+    .formacion__modulos__titulo {
+        font-size: 1.5rem;
+        margin-bottom: 0rem;
+    }
+    section.formacion_modulos {
+        padding: 3rem 2rem;
+    }
+    img.formacion__modulos__img {
+        width: 100%;
+    }
+
+    .formacion__modulos__container__img.container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    p.formacion__modulos__descripcion-2 {
+        font-size: 1rem;
+    }
+
     /*------cursos-------*/
     .cursos__propiedades{
         padding: 0 1rem;

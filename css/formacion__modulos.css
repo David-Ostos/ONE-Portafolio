@@ -1,0 +1,39 @@
+h1.formacion__modulos__titulo {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.formacion__modulos__titulo b {
+    color: rgb(141, 200, 85);
+}
+.formacion__modulos__container__img.container {
+    justify-content: center;
+    gap: 6rem;
+    padding: 4rem 0;
+}
+
+img.formacion__modulos__img {
+    width: 34vw;
+}
+
+.formacion__modulos__container__descripcion {
+    margin-top: 2rem;
+    text-align: center;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+p.formacion__modulos__descripcion-1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p.formacion__modulos__descripcion-2 {
+    font-size: 2rem;
+    color: rgb(141, 200, 85);
+    font-weight: 500;
+}
+
+.formacion__modulo__skills.soft {
+    padding-top: 3rem;
+}
